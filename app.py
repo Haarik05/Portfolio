@@ -3,7 +3,7 @@ import smtplib
 from email.message import EmailMessage
 
 app = Flask(__name__)
-
+ 
 @app.route('/')
 def index():
     return render_template("index.html")
